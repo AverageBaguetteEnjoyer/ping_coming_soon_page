@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="PING coming soon page | solution to the Frontend Mentor challenge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PING coming soon page</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header-main">
+            <img class="header-main__logo" src="./images/logo.svg" alt="PING">
+        </header>
+        <main>
+            <section class="hero">
+                <header class="hero__header">
+                    <h1>We are launching <span>soon!</span></h1>
+                    <p>Subscribe and get notified</p>
+                </header>
+                <form class="hero__form" data-form novalidate>
+                    <div class="hero__form-control" data-form-control>
+                        <input type="email" data-email-input name="email" placeholder="Your email address..." aria-label="Email address" aria-describedby="emailError" aria-invalid="false">
+                        <button type="submit">Notify me</button>
+                    </div>
+                    <small id="emailError" data-email-error aria-live="polite">Please provide a valid email address</small>
+                </form>
+                <img class="hero__illustration" src="./images/illustration-dashboard.png" alt="Dashboard analytics preview">
+            </section>
+        </main>
+        <footer class="footer">
+            <ul class="footer__social-links">
+                <li>
+                    <a href="#" aria-label="Visit our Facebook">
+                        <img src="./images/icon_facebook.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Visit our Twitter">
+                        <img src="./images/icon_twitter.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Visit our Instagram">
+                        <img src="./images/icon_instagram.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+            <span class="footer__copyright-info">&copy; Copyright Ping. All rights reserved.</span>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
