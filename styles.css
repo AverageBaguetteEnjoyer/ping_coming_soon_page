@@ -111,6 +111,7 @@ body {
     color: var(--clr-font-third);
     font-size: 1rem;
     font-weight: 600;
+    text-transform: capitalize;
     border: none;
     cursor: pointer;
     border-radius: 28px;
