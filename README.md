@@ -27,8 +27,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/ping-coming-soon-page-mjyW87pAKQ
+- Live Site URL: https://ping-coming-soon-abe.netlify.app
 
 ## Author
 
